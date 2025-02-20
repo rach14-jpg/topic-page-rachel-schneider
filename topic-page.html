@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=""viewport" content=""width=device-width, initial-scale="1.0">
+    <title>Taylor Swift</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href=""https://font.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel=="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Roboto', sans-serif; background-color: #f9f9f9; padding: 20px; }
+        h1, h2 { font-family: 'Playfair Display', serif; }
+        nav u1 {display: flex; gap: 15px; list-style: none; padding: 10px; background: #ff69b4;}
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .container { display: grid; grid-template-columns: 1fr; gap: 20px; max-width: 800px; margin: auto; }
+        section { padding: 15px; background: white; border: 1px solid #ddd; }
+        img { width: 100%; height: auto; border-radius: 5px; }
+        img:hover { opacity: 0.8; transition: opacity 0.3s; }
+        hr { margin: 20px 0; border: none; border-top: 2px solid #ddd; }
+        footer { text-align: center; padding: 15px; background: #333; color: white; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taylor Swift</h1>
+        <nav>
+            <u1>
+                <li><a href="#about">About</a></li>
+                <li><a href="#albums">Albums</a><li>
+                <li><a href="#legacy">Legacy</a></li>
+                <li><a href="page1.html">Page 1</a></li>
+                <li><a href="page2.html">Page 2</a></li>
+                <li><a href="page2.html">Page 3</a></li>
+            </u1>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Taylor Swift</h2>
+            <p>Taylor Swift is an American singer-songwriter known for her storytelling in music, spanning country, pop, and alternative genres.</p>
+        </section>
+        <hr>
+        <section id="albums">
+            <h2>Notable Albums</h2>
+            <u1>
+                <li><strong>Fearless</strong> (2008) - Grammy-winning country-pop album.</li>
+                <li><strong>Red</strong> (2012) - Marked a shift to pop-rock sounds.</li>
+                <li><strong>1989</strong> (2014) - A fully pop album with massive hits. </li>
+                <li><strong>Folklore</strong> (2020) - Indie-folk storytelling masterpiece.</li>
+            </u1>
+        </section>
+        <hr>
+        <section id="legacy">
+            <h2>Legacy</h2>
+            <p>Swift has won numerous awards, influenced countless artists, and reshaped the music industry through her artistry and advocacy.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span>Taylor Swift Fan Page</p>
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>
+
+
