@@ -19,13 +19,11 @@
         img:hover { opacity: 0.8; transition: opacity 0.3s; }
         hr { margin: 20px 0; border: none; border-top: 2px solid #ddd; }
         footer { text-align: center; padding: 15px; background: #333; color: white; margin-top: 20px; }
-        .icon { font-size: 24px; margin-right: 8px; }
     </style>
-    <script src=""https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>🎵Taylor Swift🎵</h1>
+        <h1>Taylor Swift</h1>
         <nav>
             <u1>
                 <li><a href="#about">About</a></li>
@@ -41,13 +39,11 @@
     <div class="container">
         <section id="about">
             <h2>About Taylor Swift</h2>
-            <img src=""taylor-performing-on-stage.jpg" alt="Taylor Swift performing on stage">
             <p>Taylor Swift is an American singer-songwriter known for her storytelling in music, spanning country, pop, and alternative genres.</p>
         </section>
         <hr>
         <section id="albums">
             <h2>Notable Albums</h2>
-            <img src="taylor-album-covers.jpg" alt="Taylor Swift album covers">
             <u1>
                 <li><strong>Fearless</strong> (2008) - Grammy-winning country-pop album.</li>
                 <li><strong>Red</strong> (2012) - Marked a shift to pop-rock sounds.</li>
@@ -58,7 +54,6 @@
         <hr>
         <section id="legacy">
             <h2>Legacy</h2>
-            <img src=""taylor-winning-awards.jpg" alt="Taylor Swift winning an award">
             <p>Swift has won numerous awards, influenced countless artists, and reshaped the music industry through her artistry and advocacy.</p>
         </section>
     </div>
